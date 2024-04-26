@@ -1,0 +1,35 @@
+{
+  "name": "sportradar",
+  "version": "1.0.0",
+  "description": " Live Football World Cup Score Board",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint .",
+    "prettier": "npx prettier . --write",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackjable/sportradar.git"
+  },
+  "author": "Jamie Black",
+  "bugs": {
+    "url": "https://github.com/blackjable/sportradar/issues"
+  },
+  "homepage": "https://github.com/blackjable/sportradar#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "jest": "^29.7.0",
+    "jest-mock-extended": "^3.0.6",
+    "prettier": "3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.1"
+  }
+}
