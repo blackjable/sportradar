@@ -11,7 +11,7 @@ const config: Config = {
   coverageDirectory: "coverage",
   coverageProvider: "v8",
   preset: "ts-jest",
-  rootDir: './src',
+  rootDir: "./src",
   moduleDirectories: ["node_modules", "src"],
   moduleNameMapper: {
     "@/(.*)": "<rootDir>/$1",
